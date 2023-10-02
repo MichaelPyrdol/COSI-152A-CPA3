@@ -1,0 +1,56 @@
+:root{
+    --brandeis:#003478;
+}
+h2{
+    font-size:30px;
+}
+/* Setting properties for the footer */
+footer{
+    padding:100px;
+    color:white;
+    background-color:grey;
+}
+#brandeisLogoColumn{
+    width:50%;
+}
+#brandeisLogo{
+    width:500px;
+}
+#footerInfo{
+    float:left;
+    width:70%;
+}
+#studentsAndAlumniOf{
+    width:50%;
+    font-size:20px;
+}
+#brandeisUniversity{
+    width:10%;
+}
+.social{
+    float:left;
+    color:white;
+    background-color:white;
+}
+.fa{
+    text-align:center;
+    text-decoration:none;
+    padding:10px;
+    width:40px;
+    font-size:40px;
+}
+.fa:hover{
+    opacity:0.75;
+}
+.fa-facebook{
+    color:white;
+    background-color:#4267B2;
+}
+.fa-reddit{
+    color:white;
+    background-color:#FF5700;
+}
+.fa-youtube{
+    color:white;
+    background-color:#FF0000;
+}
