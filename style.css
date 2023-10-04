@@ -1,31 +1,80 @@
 :root{
     --brandeis:#003478;
 }
-h2{
+body{
+    font-family:arial;
+}
+h1{
     font-size:30px;
+}
+h2{
+    font-size:20px;
+}
+nav{
+    overflow:hidden;
+    background-color:var(--brandeis);
+    padding-left:30px;
+}
+nav a{
+    float:left;
+    display:block;
+    color:var(--brandeis);
+    background-color:white;
+    text-align:center;
+    padding:5px 15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+    font-weight:bold;
+    text-decoration:none;
+    border-style:dashed;
+    
+}
+/* Changing the background color for hovering over the nav buttons */
+nav a:hover{
+    opacity:0.7;
 }
 /* Setting properties for the footer */
 footer{
-    padding:100px;
+    padding-left:50px;
+    padding:60px;
     color:white;
     background-color:grey;
+    font-size:20px;
+    display:flex;
+    align-items:center;
+}
+br{
+    clear:both;
 }
 #brandeisLogoColumn{
-    width:50%;
+    float:left;
+    width:auto;
 }
 #brandeisLogo{
-    width:500px;
+    width:200px;
+    padding:20px;
+}
+#studentsAndAlumniAssociation{
+    float:left;
+    width:auto;
 }
 #footerInfo{
     float:left;
-    width:70%;
+    width:80%;
 }
 #studentsAndAlumniOf{
-    width:50%;
+    float:left;
+    width:auto;
     font-size:20px;
 }
-#brandeisUniversity{
-    width:10%;
+#brandeisUniversityColumnHeader{
+    float:left;
+    width:auto;
+}
+#brandeisUniversityColumn{
+    float:left;
+    width:auto;
 }
 .social{
     float:left;
@@ -36,11 +85,11 @@ footer{
     text-align:center;
     text-decoration:none;
     padding:10px;
-    width:40px;
-    font-size:40px;
+    width:50px;
+    font-size:30px;
 }
 .fa:hover{
-    opacity:0.75;
+    opacity:0.7;
 }
 .fa-facebook{
     color:white;
@@ -53,4 +102,8 @@ footer{
 .fa-youtube{
     color:white;
     background-color:#FF0000;
+}
+/* Making the box sizes uniform */
+*{
+    box-sizing:border-box;
 }
