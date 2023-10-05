@@ -2,18 +2,48 @@
     --brandeis:#003478;
 }
 body{
-    font-family:arial;
+    font-family:"Whitney Light",sans-serif;
+    color:var(--brandeis);
 }
 h1{
-    font-size:30px;
+    font-size:45px;
+    padding-top:40px;
 }
 h2{
+    font-size:25px;
+    font-style:italic;
+}
+h3{
+    font-size:40px;
+}
+h4{
+    float:left;
+    display:block;
+    font-size:30px;
+    font-style:italic;
+}
+h5{
+    float:left;
+    display:block;
+    font-size:40px;
+}
+h1,h5{
+    font-family:"Whitney Book",sans-serif;
+}
+p{
+    float:left;
+    display:block;
     font-size:20px;
+    color:black;
+    width:40%;
+}
+nav{
+    font-family:"Whitney Bold",sans-serif;
 }
 nav{
     overflow:hidden;
     background-color:var(--brandeis);
-    padding-left:30px;
+    padding-left:50px;
 }
 nav a{
     float:left;
@@ -28,16 +58,18 @@ nav a{
     font-weight:bold;
     text-decoration:none;
     border-style:dashed;
-    
 }
 /* Changing the background color for hovering over the nav buttons */
 nav a:hover{
     opacity:0.7;
 }
+section{
+    padding-left:100px;
+}
 /* Setting properties for the footer */
 footer{
     padding-left:50px;
-    padding:60px;
+    padding:50px;
     color:white;
     background-color:grey;
     font-size:20px;
@@ -55,26 +87,9 @@ br{
     width:200px;
     padding:20px;
 }
-#studentsAndAlumniAssociation{
-    float:left;
-    width:auto;
-}
 #footerInfo{
     float:left;
     width:80%;
-}
-#studentsAndAlumniOf{
-    float:left;
-    width:auto;
-    font-size:20px;
-}
-#brandeisUniversityColumnHeader{
-    float:left;
-    width:auto;
-}
-#brandeisUniversityColumn{
-    float:left;
-    width:auto;
 }
 .social{
     float:left;
@@ -94,6 +109,10 @@ br{
 .fa-facebook{
     color:white;
     background-color:#4267B2;
+}
+.fa-linkedin{
+    color:white;
+    background-color:#0077B5;
 }
 .fa-reddit{
     color:white;
